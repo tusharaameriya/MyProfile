@@ -39,7 +39,6 @@ body {
 .main {
     margin-left: 100px;
     /* Same as the width of the sidenav */
-    font-size: 28px;
     /* Increased text to enable scrolling */
     padding: 0px 40px;
     /* background-color: black;s */
@@ -434,7 +433,7 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 15px 100px 15px 100px;
+    padding: 15px 80px 15px 80px;
     transition: 0.3s;
     font-size: 17px;
     border-radius: 50px;
@@ -1148,7 +1147,8 @@ textarea::placeholder {
         display: inline;
         width: auto !important;
     }
-    .slider-container{
+
+    .slider-container {
         display: none;
     }
 
@@ -1285,6 +1285,59 @@ textarea::placeholder {
         display: flex;
         justify-content: space-evenly !important;
     }
+
+    .services-responsive-heading-box {
+        margin-top: -90px !important;
+    }
+
+    .resposive-card2 {
+        margin-top: -50px !important;
+    }
+
+    .resposive-card3 {
+        margin-top: -40px !important;
+
+    }
+
+    .projects-number-box {
+        margin-top: -60px !important;
+
+    }
+
+    .resume-responsive-box {
+        margin-top: -30px !important;
+
+    }
+
+    .nav-button-text {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+
+    .edu-responsive-box4 {
+        margin-top: -10px !important;
+    }
+
+    .contact-deatils-box-responsive {
+        margin-top: -50px !important;
+
+    }
+
+    .bolg-responsive-heading-box {
+        margin-top: -80px !important;
+
+    }
+
+    .image-container {
+        height: 300px;
+        /* Adjust height as needed */
+    }
+
+    .image-container img {
+        height: 100%;
+        object-fit: cover;
+    }
+
 
 }
 
@@ -1447,10 +1500,40 @@ textarea::placeholder {
 }
 
 @media screen and (max-width: 399px) {
-    .download-button {
-        background-color: #040836 !important;
+
+
+    .Freelance-button {
         color: white;
         border-radius: 30px;
         padding: 10px 25px 10px 25px;
+        font-size: 16px;
     }
+}
+
+@media screen and (max-width: 420px) {
+
+    /* .projects-img-box {
+        margin-top: -0px !important;
+
+    }
+
+    .projects-img-box2 {
+        margin-top: -0px !important;
+
+    }
+
+    .projects-img-box3 {
+        margin-top: -0px !important;
+
+    }
+
+    .projects-img-box4 {
+        margin-top: -0px !important;
+
+    }
+
+    .projects-img-box5 {
+        margin-top: -0px !important;
+
+    } */
 }
